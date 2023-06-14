@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root{
+    --text_style:'Popins', sans-serif;
+    --main_bg:#11009E;
+    --primary_bg:#4942E4;
+    --secondary_bg:#8696FE;
+    --primay_text: #fff;
+    --font-heading:'Lobster', cursive;
+    --font-primary:'Roboto Slab', serif;
+
+
+}
+html,body{
+    font-size: 12px;
+}
+body{
+    background: var(--main_bg);
+   
+}
+.main{
+    font-family: var(--font-primary);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row{
+    max-width: 90%;
+}
+.signIn_form{
+    background: var(--secondary_bg);
+    border-radius: 40px;
+   
+}
+.signIn_form h1{
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+
+}
+
+
+
+.sign_content{
+    padding: 4rem 2rem ;
+    font-size: 1.2rem;
+}
+
+.sign-btn{
+    background: var(--primary_bg);
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    color: var(--primay_text);
+    box-shadow: 0 0 3px var(--primay_text);
+    
+}
+
+.sign-btn:hover{
+    background-color: #fff;
+    color: var(--primary_bg);
+    border: 1px solid var(--primary_bg);
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary_bg);
+    text-decoration: underline;
+}
+
+.signIn_title{
+    background: var(--primary_bg);
+    color: var(--primay_text);
+    border-radius: 40px;
+   
+}
+.title-content{
+    margin-top: 8rem;
+}
+.title-content h2{
+    font-size: 2.5rem;
+    
+}
+
+.title-content p{
+    line-height: 1.5;
+    font-size: 1.5rem;
+    /* color: red; */
+}
+form .forget a{
+    color: var(--primay_text); 
+    letter-spacing: 0.2rem;
+    
+    /* text-decoration: none; */
+    
+}
+.register a{
+    color: var(--primay_text);
+    text-decoration: underline;
+}
